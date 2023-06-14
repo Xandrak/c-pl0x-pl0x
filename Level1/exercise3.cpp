@@ -21,4 +21,6 @@ int main()
     std::cout << "Third number: " << numbers_list.at(2) << std::endl;
     std::cout << "Fourth number: " << numbers_list.at(3) << std::endl;
     std::cout << "Average: " << average << std::endl;
+
+    return 0;
 }
