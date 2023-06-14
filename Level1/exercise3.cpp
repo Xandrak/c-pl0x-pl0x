@@ -6,9 +6,9 @@
 
 int main() 
 {
-    std::vector<double> numbers_list = {58, 20, 32, 19};
-    double accumulation = std::accumulate(numbers_list.begin(), numbers_list.end(), 0.0);
-    double average = 0;
+    std::vector<double> numbers_list = {58.0, 20.2, 32.5, 19.999};
+    double accumulation = accumulate(numbers_list.begin(), numbers_list.end(), 0.0);
+    double average = 0.0;
     int numbers_list_size = numbers_list.size();
 
     if (numbers_list_size > 0) {
