@@ -14,7 +14,7 @@ double getCelsiusTemp() {
 
 double convertCelsiusToFahrenheit (double celsius_degrees) {
 
-    return (celsius_degrees * 1.8) + 32;
+    return (celsius_degrees * 1.8) + 32.0;
 
 }
 
