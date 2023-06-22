@@ -20,7 +20,7 @@ double convertCelsiusToFahrenheit (double celsius_degrees) {
 
 void displayDegrees(double celsius_degrees, double fahrenheight_degrees)
 {
-    cout << "OK, " << celsius_degrees << " is " << fahrenheight_degrees << " degrees F!" << endl;
+    cout << "OK, " << celsius_degrees << " degrees C is " << fahrenheight_degrees << " degrees F!" << endl;
 }
 
 int main() {
